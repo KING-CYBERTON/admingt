@@ -101,7 +101,6 @@ class _PostDataScreenState extends State<PostDataScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-     
       body: SingleChildScrollView(
         scrollDirection: Axis.vertical,
         child: Padding(
@@ -165,7 +164,6 @@ class _PostDataScreenState extends State<PostDataScreen> {
                 const SizedBox(
                   height: 20,
                 ),
-             
                 DropdownButton<String>(
                   iconEnabledColor: Colors.lightBlue,
                   value: selectedcollection,

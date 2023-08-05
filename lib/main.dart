@@ -1,4 +1,3 @@
-
 import 'package:admingt/orders.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -10,7 +9,7 @@ import 'upload.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
- // initialise app based on platform- web or mobile
+  // initialise app based on platform- web or mobile
   if (kIsWeb) {
     await Firebase.initializeApp(
       options: const FirebaseOptions(
@@ -34,10 +33,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.lightBlue
-      ),
-      home: home(),
+      theme: ThemeData(primarySwatch: Colors.lightBlue),
+      home: const home(),
     );
   }
 }
@@ -79,10 +76,7 @@ class _homeState extends State<home> with SingleTickerProviderStateMixin {
       ),
       body: TabBarView(
         controller: _tabController,
-        children:  [
-         OrderListScreen(),
-        const  PostDataScreen()
-        ],
+        children: [OrderListScreen(), const PostDataScreen()],
       ),
     );
   }

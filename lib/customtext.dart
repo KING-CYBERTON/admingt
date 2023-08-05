@@ -22,7 +22,7 @@ class CustomTextt extends StatelessWidget {
 
     return Container(
       width: 300,
-      padding: EdgeInsets.only(left: 9),
+      padding: const EdgeInsets.only(left: 9),
       decoration: BoxDecoration(
         color: Colors.white,
         boxShadow: const [
@@ -33,7 +33,7 @@ class CustomTextt extends StatelessWidget {
           )
         ],
         border: Border.all(
-          color: Color.fromARGB(255, 11, 12, 10),
+          color: const Color.fromARGB(255, 11, 12, 10),
           width: 2,
         ),
         borderRadius: BorderRadius.circular(11),
@@ -76,7 +76,7 @@ class dateContainer extends StatelessWidget {
     return Container(
       width: 300,
       height: 90,
-      padding: EdgeInsets.only(left: 9),
+      padding: const EdgeInsets.only(left: 9),
       decoration: BoxDecoration(
         color: Colors.white,
         boxShadow: const [
@@ -87,7 +87,7 @@ class dateContainer extends StatelessWidget {
           )
         ],
         border: Border.all(
-          color: Color.fromARGB(255, 117, 143, 216),
+          color: const Color.fromARGB(255, 117, 143, 216),
           width: 2,
         ),
         borderRadius: BorderRadius.circular(11),
@@ -103,7 +103,7 @@ class dateContainer extends StatelessWidget {
               fontStyle: FontStyle.italic,
             ),
           ),
-          SizedBox(
+          const SizedBox(
             width: 20,
           ),
           Text(
@@ -141,7 +141,7 @@ class CustomText extends StatelessWidget {
 
     return Container(
       width: 300,
-      padding: EdgeInsets.only(left: 9),
+      padding: const EdgeInsets.only(left: 9),
       decoration: BoxDecoration(
         color: Colors.white,
         boxShadow: const [
@@ -152,7 +152,7 @@ class CustomText extends StatelessWidget {
           )
         ],
         border: Border.all(
-          color: Color.fromARGB(255, 11, 12, 10),
+          color: const Color.fromARGB(255, 11, 12, 10),
           width: 2,
         ),
         borderRadius: BorderRadius.circular(11),
